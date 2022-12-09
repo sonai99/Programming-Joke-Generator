@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #5cdb95;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  border: 2px solid deepskyblue;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 7rem;
+}
+h3 {
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+.joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+.btn {
+  height: 2rem;
+  width: 5rem;
+  background: rgb(168, 34, 221);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.twitter-share-button {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  width: 5rem;
+  height: 2rem;
+  border: 2px solid white;
+  margin-top: 5px;
+  background: #00acee ;
+  padding: 4px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}

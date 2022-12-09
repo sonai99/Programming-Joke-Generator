@@ -22,7 +22,7 @@ function App() {
       <h3>Get a random Programming Joke</h3>
       <p className='joke'>{joke}</p>
       <button onClick={generateJoke} className='btn'>Next Joke</button>
-      <a className='twitter-share-button' target="_blank"
+      <a className='twitter-share-button' target="_blank" rel="noopener noreferrer"
     href="https://twitter.com/intent/tweet?text=Check out this cool Programming Joke Generator, Created by @Hustler052199"
     data-size="large">Tweet</a>
     </div>
